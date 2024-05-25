@@ -1,0 +1,30 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "4ed83ee0-3f23-47c6-abde-70b2114e62e8",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "bids": {
+      "name": "bids",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
