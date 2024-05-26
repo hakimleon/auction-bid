@@ -70,14 +70,3 @@ export const ItemsTable = sqliteTable('items', {
 
 export type InsertItem = typeof ItemsTable.$inferInsert;
 export type SelectItem = typeof ItemsTable.$inferSelect; 
-
-
-
-
-
-
-
-
-
-
-
